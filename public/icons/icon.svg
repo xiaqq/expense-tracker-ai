@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#4f46e5"/>
+  <g fill="white">
+    <!-- Dollar/Yuan symbol -->
+    <text x="256" y="320" font-family="Arial, sans-serif" font-size="240" font-weight="bold" text-anchor="middle">$</text>
+    <!-- Receipt lines -->
+    <rect x="140" y="380" width="232" height="16" rx="8"/>
+    <rect x="180" y="420" width="152" height="12" rx="6"/>
+  </g>
+</svg>
