@@ -1,10 +1,7 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
 import './globals.css';
 import { Providers } from '@/components/Providers';
 import { Navigation } from '@/components/layout';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'ExpenseTracker - Track Your Spending',
@@ -115,7 +112,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body className={`${inter.className} antialiased bg-gray-50 min-h-full ios-safe-area`}>
+      <body className="font-sans antialiased bg-gray-50 min-h-full ios-safe-area">
         <Providers>
           <Navigation />
           <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 pb-safe">
