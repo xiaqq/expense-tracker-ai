@@ -2,6 +2,10 @@ import withPWA from 'next-pwa';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
   webpack: (config) => {
     // Handle pdfjs-dist canvas dependency
     config.resolve.alias.canvas = false;
